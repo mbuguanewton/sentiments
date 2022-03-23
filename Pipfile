@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+nltk = "*"
+numpy = "*"
+seaborn = "*"
+matplotlib = "*"
+flask = "*"
+flask-dotenv = "*"
+jupyter = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
